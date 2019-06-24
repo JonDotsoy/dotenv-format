@@ -1,6 +1,6 @@
 {
   "name": "dotenv-format",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Formatter to dotenv file.",
   "main": "lib/format.js",
   "bin": {
