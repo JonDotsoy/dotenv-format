@@ -4,10 +4,12 @@
   "description": "Formatter to dotenv file.",
   "main": "lib/format.js",
   "bin": {
-    "dotenv-format": "lib/cli.js"
+    "dotenv-format": "node lib/cli.js"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "version": "tsc",
+    "release": "np"
   },
   "keywords": [
     "dotenv",
@@ -21,6 +23,7 @@
   "devDependencies": {
     "@types/node": "^12.0.10",
     "@types/yargs": "^13.0.0",
+    "np": "^5.0.3",
     "ts-node": "^8.3.0",
     "typescript": "^3.5.2"
   },
