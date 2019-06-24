@@ -4,7 +4,7 @@
   "description": "Formatter to dotenv file.",
   "main": "lib/format.js",
   "bin": {
-    "dotenv-format": "node lib/cli.js"
+    "dotenv-format": "lib/cli.js"
   },
   "scripts": {
     "build": "tsc",

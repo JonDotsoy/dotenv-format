@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import { command } from 'yargs';
 import { formatFile } from './format';
 
